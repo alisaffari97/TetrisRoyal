@@ -34,5 +34,7 @@ MonoBehaviour:
   - DestroySpaceship
   - Fire
   - RespawnSpaceship
+  - RPC_Function
+  - Send_Health
   DisableAutoOpenWizard: 1
-  ShowSettings: 0
+  ShowSettings: 1

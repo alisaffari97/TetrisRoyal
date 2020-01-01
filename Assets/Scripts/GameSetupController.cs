@@ -1,23 +1,24 @@
 ﻿using Photon.Pun;
+using Photon.Realtime;
 using System.Collections;
 using System.Collections.Generic;
 using System.IO;
 using UnityEngine;
+using UnityEngine.UI;
+
 public class GameSetupController : MonoBehaviour
 {
+    [SerializeField]
+    public Text overText;
+
     // This script will be added to any multiplayer scene
     void Start()
     {
-        CreatePlayer(); //Create a networked player object for each player that loads into the multiplayer scenes.
-    }
-    private void CreatePlayer()
-    {
-        Debug.Log("Creating Player");
 
     }
 
-    private void FixedUpdate()
-    {
-                 
+    private void Update()
+    {        
+        overText.text = "Lantecy: " + PhotonNetwork.GetPing().ToString();
     }
 }
