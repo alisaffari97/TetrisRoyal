@@ -1,0 +1,12 @@
+fileFormatVersion: 2
+guid: 759491eb85110e84c9e6fe8636932d16
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - snapSFX: {fileID: 8300000, guid: 478cc6c84bcd5ee4da3b87af4d87bbe3, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
